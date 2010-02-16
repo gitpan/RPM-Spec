@@ -27,7 +27,7 @@
    "provides" : {
       "RPM::Spec" : {
          "file" : "lib/RPM/Spec.pm",
-         "version" : "0.01"
+         "version" : "0.03"
       }
    },
    "requires" : {
@@ -40,5 +40,5 @@
    "resources" : {
       "license" : "http://opensource.org/licenses/lgpl-license.php"
    },
-   "version" : "0.01"
+   "version" : "0.03"
 }
