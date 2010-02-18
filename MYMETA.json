@@ -27,12 +27,13 @@
    "provides" : {
       "RPM::Spec" : {
          "file" : "lib/RPM/Spec.pm",
-         "version" : "0.03"
+         "version" : "0.04"
       }
    },
    "requires" : {
       "Moose" : 0,
       "MooseX::AttributeHelpers" : 0,
+      "MooseX::Types::Moose" : 0,
       "MooseX::Types::Path::Class" : 0,
       "Path::Class" : 0,
       "namespace::autoclean" : 0
@@ -40,5 +41,5 @@
    "resources" : {
       "license" : "http://opensource.org/licenses/lgpl-license.php"
    },
-   "version" : "0.03"
+   "version" : "0.04"
 }
