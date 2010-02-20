@@ -22,14 +22,13 @@ no_index:
 provides:
   RPM::Spec:
     file: lib/RPM/Spec.pm
-    version: 0.04
+    version: 0.05
 requires:
-  Moose: 0
-  MooseX::AttributeHelpers: 0
+  Moose: 0.92
   MooseX::Types::Moose: 0
   MooseX::Types::Path::Class: 0
   Path::Class: 0
   namespace::autoclean: 0
 resources:
   license: http://opensource.org/licenses/lgpl-license.php
-version: 0.04
+version: 0.05
